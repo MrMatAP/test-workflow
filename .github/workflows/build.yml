@@ -55,6 +55,7 @@ jobs:
 
     - name: Build
       run: |
+        env
         mkdir -p build
         echo "Hi, I am an artefact" > build/artefact
 
