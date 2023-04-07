@@ -62,7 +62,7 @@ jobs:
         echo "Hi, I am an artefact" > build/artefact
 
     - name: Conditional Release
-      uses: MrMatAP/mrmat-conditional-release-action@d9ad0cb47cdab5fc4a4993f3b88962d69e2cd6e9
+      uses: MrMatAP/mrmat-conditional-release-action@9f4b13a95315302fa18eb349c3890f662ec459d9
       # if: (github.event.pull_request.merged == true && github.base_ref == 'main')
       with:
         token: "${{ secrets.GITHUB_TOKEN }}"
