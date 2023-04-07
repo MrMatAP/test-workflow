@@ -59,7 +59,7 @@ jobs:
         echo "Hi, I am an artefact" > build/artefact
 
     - name: Conditional Release
-      uses: MrMatAP/mrmat-conditional-release-action@9122ecd358f4a93d9ffdca8037c77c164bf25c81
+      uses: MrMatAP/mrmat-conditional-release-action@cce5f36347d4c8d0cc0cbe3d29bb1f3e3382471a
       # if: (github.event.pull_request.merged == true && github.base_ref == 'main')
       with:
         version: "${{ env.MRMAT_VERSION }}"
