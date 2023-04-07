@@ -35,8 +35,8 @@ jobs:
 
   build:
     runs-on: self-hosted
-    permissions:
-      repository-projects: write
+    # permissions:
+    #   repository-projects: write
     steps:
 
     - name: Checkout out our code
